@@ -1,0 +1,18 @@
+[project]
+name = "lottery-project"
+version = "0.1.0"
+description = "Lottery & Probability Simulator using Python"
+authors = [
+    {name = "Sakshi Kumari",email = "271sakshi.kumari@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib (>=3.10.8,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
